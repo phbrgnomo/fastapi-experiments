@@ -42,7 +42,8 @@ The command uvicorn `main:app` refers to:
 
 FastAPI auto generates the API documentation. You can see them on the following links after starting the uvicorn server:
 
-http://localhost:8000/docs#/default/root__get
+http://localhost:8000/docs
+
 http://localhost:8000/redoc
 
 The documentation schema can be found here:
