@@ -1,0 +1,20 @@
+### Test Root Route ###
+GET http://localhost:8000/
+
+### Test Items Route ###
+GET http://localhost:8000/items/42
+
+### Test Items Route, but with integers ###
+GET http://localhost:8000/items/word
+
+### Test Current User Route ###
+GET http://localhost:8000/users/me
+
+### Test User ID Route ###
+GET http://localhost:8000/users/33
+
+### Test Models Route ###
+GET http://localhost:8000/models/lenet
+
+### Test files Route ###
+GET http://localhost:8000/files/home/home/lite
