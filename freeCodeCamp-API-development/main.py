@@ -1,7 +1,6 @@
 from random import randrange
 from typing import Optional
 from fastapi import FastAPI
-from httpx import post
 from pydantic import BaseModel
 
 # Start a fastapi instance
